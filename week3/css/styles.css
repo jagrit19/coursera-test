@@ -13,9 +13,10 @@ body {
 } 
 
 #header-nav .container {
-	width: 85%;
-	margin-right: auto;
-	margin-left: auto;
+	width: 100%;
+	margin-left: 0;
+	margin-right: 0;
+	padding: 0;
 }
 
 
@@ -30,6 +31,7 @@ body {
   margin-bottom: -10px;
   line-height: .75;
   padding-bottom: -10px;
+  margin-left: 20px;
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
@@ -47,8 +49,8 @@ body {
   background: #E7E7E7;
 }
 #nav-list li {
-	border: 1px solid black;
-	margin-bottom: 5px;
+	border: 3px solid black;
+	margin: 0 1px 5px;
 }
 
 
@@ -58,7 +60,7 @@ body {
 .navbar-header button.navbar-toggle {
   clear: both;
   margin-top: -40px;
-  margin-right: -10px;
+  margin-right: 20px;
 }
 
 h1#heading {
